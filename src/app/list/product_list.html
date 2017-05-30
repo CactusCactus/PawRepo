@@ -1,0 +1,10 @@
+<div class="mainContainer">
+  <ul>
+        <li *ngFor="let product of products | async" (click)="listItemClick(product)">
+          <prod-item [product]="product"></prod-item>
+        </li>
+  </ul>
+  <div id="displayContainer"  *ngIf="chosen">
+    <prod-disp [product]="selectedProduct"></prod-disp>
+  </div>
+</div>

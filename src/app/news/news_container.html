@@ -1,0 +1,4 @@
+<div #display_container></div>
+<div class="grid_list" *ngFor="let news of newsList | async">
+    <li><news-el [news]="news" (click)="newsClick(news, $event)"></news-el></li>
+</div>

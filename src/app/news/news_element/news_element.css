@@ -1,0 +1,31 @@
+#news_parent {
+    background: #ffde5e;
+    padding: 5px;
+    margin: 5px;
+}
+#news_header {
+    display: flex;
+    background: #f7aa25;
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#img {
+}
+#title {
+    text-align: right;
+    flex: 1;
+    color: white;
+}
+#news_footer {
+    background: #fffd9e;
+    padding: 15px;
+}
+#desc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#news_parent:hover  {
+    background: #ffe47f;
+}
+#news_parent:hover  #news_header{
+    background: #ffc259;
+}

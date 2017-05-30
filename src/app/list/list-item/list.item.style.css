@@ -1,0 +1,45 @@
+#productListItem {
+    background: #ff8282;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+#productListItem:hover {
+    background: #ff9e9e;
+    color: white;
+}
+#productListItem:active {
+    background: #ffe0e0;
+    color: white;
+}
+p {
+    margin: 0 auto;
+    font-family: Sans-serif;
+    font-size: 20px;
+    color: #ededed;
+    display: inline-block;
+    vertical-align: middle;
+}
+#name {
+    color: #ededed;
+}
+
+#price {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.pinkOval {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    background-color: #b53a38;
+    padding: 10px;
+    border-radius: 10px;
+}

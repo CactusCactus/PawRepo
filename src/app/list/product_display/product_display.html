@@ -1,0 +1,20 @@
+<div class = "productView">
+    <div class="productInfo">
+      <div class="leftSide">
+        <p id = "productName">{{product.name}}</p>
+        <img id = "productImage" [src]="product.imgUrl" height="170" width="170">
+      </div>
+      <div class="rightSide">
+        <p id = "productDescription">{{product.description}}</p>
+      </div>
+    </div>
+    <div class = "priceInfo">
+      <div id= "priceInfoInner">
+        <p id = "productPrice">Cena: {{product.price}} zł</p>
+        <button class="cartButton" id="productCartButton">
+          <span>Dodaj do koszyka</span>
+          <img src="http://www.iconsdb.com/icons/preview/white/shopping-cart-xxl.png" height="20px" width="26px">
+        </button>
+      </div>
+    </div>
+</div>

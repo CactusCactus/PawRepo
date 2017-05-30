@@ -1,0 +1,9 @@
+
+li {
+    display: inline-block;
+  width: 100%;
+}
+#display_container {
+  width: 200px;
+  height: 100%
+}

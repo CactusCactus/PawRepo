@@ -1,0 +1,21 @@
+div.mainContainer{
+    display: flex;
+    margin-top: 20px;
+    height: 90%;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #f44242;
+    color: white;
+    display:block;
+    margin:0 auto;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 25%;
+    width: 500px
+}
+div#displayContainer {
+    flex: 1;
+}
+
