@@ -1,11 +1,10 @@
 #main_container {
-    width: 50%;
+    width: 300px;
   margin: 10px auto;
+  text-align: center;
 }
 #login_form {
-    width: 300px;
-    height: auto;
-    text-align:center;
+    display: inline-block;
 }
 input {
     float: left;
@@ -35,10 +34,20 @@ button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 15px;
     width: 270px;
+    display: inline-block;
+}
+#providers {
+    display: inline-block;
 }
 h1 {
     font-size: 25px;
 }
 p {
     font-size: 16px;
+}
+input {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
