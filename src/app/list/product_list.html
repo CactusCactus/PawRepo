@@ -1,3 +1,4 @@
+<p *ngIf="cart">Zapisane</p>
 <div class="mainContainer">
   <ul>
         <li *ngFor="let product of products | async" (click)="listItemClick(product)">
@@ -5,6 +6,16 @@
         </li>
   </ul>
   <div id="displayContainer"  *ngIf="chosen">
-    <prod-disp [product]="selectedProduct"></prod-disp>
+    <prod-disp [product]="selectedProduct" (productAdded)="addProductToList($event)"></prod-disp>
   </div>
+</div>
+<div id="not_saved" *ngIf="cart">
+  <p>Nie zapisane</p>
+    <ul>
+          <li *ngFor="let product of productssync">
+            <prod-item [product]="product"></prod-item>
+          </li>
+    </ul>
+    <button id="save_button" *ngIf="cart" (click)="saveClick()">Zapisz</button>
+    <button id="pay_button" *ngIf="cart">Zapłać</button>
 </div>

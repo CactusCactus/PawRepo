@@ -1,0 +1,16 @@
+<div id="main_container">
+    <div id="user_display">
+        <h1>{{name}}</h1>
+        <p>{{email}}</p>
+    </div>
+    <div id="login_form">
+        <input #username type="text">
+        <input #password type=password>
+        <button (click)="registerEmail()">Zarejestruj</button>
+        <button (click)="login()">Zaloguj</button>
+    </div>
+    <div id="providers">
+        <button (click)="registerGoogle()"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1000px-Google_%22G%22_Logo.svg.png" width="30px" height=30px/></button>
+        <button (click)="registerFacebook()"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png" width="30px" height="30px"/></button>
+    </div>
+</div>

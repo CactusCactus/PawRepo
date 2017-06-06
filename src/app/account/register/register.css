@@ -1,0 +1,44 @@
+#main_container {
+    width: 50%;
+  margin: 10px auto;
+}
+#login_form {
+    width: 300px;
+    height: auto;
+    text-align:center;
+}
+input {
+    float: left;
+    clear: left;
+    width: 300px;
+}
+button {
+    float: left;
+    clear: left;
+    width: 300px;
+    background-color: #ffdd00;
+    width: 200px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5px;
+}
+button:hover { 
+    background-color: #fce344;
+}
+#user_display {
+    background-color: #83ff7f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    width: 270px;
+}
+h1 {
+    font-size: 25px;
+}
+p {
+    font-size: 16px;
+}

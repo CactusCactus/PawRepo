@@ -11,16 +11,15 @@ import { ProductDisplay } from './list/product_display/product_display'
 import { NewsContainer } from './news/news_container'
 import { NewsElement} from './news/news_element/news_element'
 import { Register } from './account/register/register'
-import { Account } from './account/account'
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireAuthModule } from 'angularfire2/auth'
+import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
-    Header, ProductList, MainBar, ProductListItem, NewsContainer, NewsElement, ProductDisplay, Register, Account
+    Header, ProductList, MainBar, ProductListItem, NewsContainer, NewsElement, ProductDisplay, Register,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +30,7 @@ import { environment } from '../environments/environment';
     AngularFireAuthModule
 
   ],
-  entryComponents: [ProductList, NewsContainer, ProductDisplay, Account],
+  entryComponents: [ProductList, NewsContainer, ProductDisplay, Register],
   providers: [],
   bootstrap: [Header, MainBar]
 })

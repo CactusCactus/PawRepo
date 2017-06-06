@@ -1,7 +1,12 @@
-<div class = "buttonContainer">
-    <button (click)="clickedHome($event)">Home</button>
-    <button (click)="clickedSearch($event)">Szukaj</button>
-    <button (click)="clickedShop($event)">Zakupy</button>
-    <button (click)="clickedCart($event)">Koszyk</button>
-    <button (click)="clickedAccount($event)">Konto</button>
-</div>
+ <div id="main_conatiner">
+    <div id="user_display">
+        <h1>{{name}}</h1>
+        <p>{{email}}</p>
+    </div>
+    <div class = "buttonContainer">
+        <button (click)="clickedHome($event)">Home</button>
+        <button (click)="clickedShop($event)">Zakupy</button>
+        <button (click)="clickedCart($event)">Koszyk</button>
+        <button (click)="clickedAccount($event)">Konto</button>
+    </div>
+ </div>
